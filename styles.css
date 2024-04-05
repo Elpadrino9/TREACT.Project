@@ -41,8 +41,8 @@ a {
     list-style: none;
 }
 
-.purple {
-    color: purple;
+.purple a {
+    color: orange;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
