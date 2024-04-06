@@ -5,13 +5,14 @@
     font-family: "Inter", sans-serif;
 }
 
+
 a {
     text-decoration: none;
 }
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -19,30 +20,84 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 32px;
 }
 
-.nav__img {
-    width: 40px;
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 24px;
+    color: #243E63;
+    transition: all 300ms ease;
+}
+
+.nav__wrapper:hover {
+    color: rgb(100 21 255);
 }
 
 .nav__logo {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
+    width: 40px;
+    margin: 0 12px 0 0;
 }
 
-.nav ul li{ 
-    padding-right: 12px;
-}
-
-
-.nav ul {
+.nav__links {
     display: flex;
     list-style: none;
 }
 
-.purple a {
-    color: orange;
+.nav__link {
+    color: #243E63;
+    font-size: 14px;
+    margin: 0 24px;
+    font-weight: 600;
+    padding: 0 0 4px;
+    opacity: 95%;
+    position: relative;
+    left: -5;
+    transition: all 300ms ease;
+}
+
+.nav__link:hover::after {
+    opacity: 1;
+}
+
+.nav__link::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: rgb(100 21 255);
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    opacity: 0;
+    transition: all 300ms ease;
+}
+
+.nav__link:hover {
+    color: rgb(100 21 255);
+}
+
+.nav__link--log {
+    margin: 0 24px 0 48px;
+}
+
+.nav__link--primary {
+    color: #F7FAFC;
+    background-color: #6415ff;
+    border-radius: 50px;
+    margin: 8px 0;
+    padding: 12px 32px;
+    transition: all 300ms ease;
+}
+
+.nav__link--primary:hover {
+    color: #F7FAFC;
+    background-color: rgb(80 17 204);
+}
+
+.nav__link--primary:hover::after {
+    opacity: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
