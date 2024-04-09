@@ -123,61 +123,64 @@ NAV
 }
 
 
-/* LANDING SECTION */
+/* 
 
+LANDING SECTION 
 
-.two__columns--container {
-    width: 100%;
-    margin: o 148px;
+*/
+
+.header__container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 96px 0;
-    display: flex;
 }
 
-.left__side--container {
+.header__row {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    padding: 0 32p;
+}
+
+.header__description {
     width: 40%;
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
 }
 
-.left__side--header {
+.header__title {
     font-size: 48px;
     color: #1A202C;
 }
 
-.left__side--para {
+.header__para {
     font-size: 18px;
     color: #243E63;
     margin: 32px 0;
     line-height: 1.5;
 }
 
+.header__input {
+    display: flex;
+    position: relative;
+    align-items: center;
+    max-width: 440px;
+}
 
-input {
-    width: 100%;
-    border-radius: 9999px;
-    border-width: 2px;
-    border: solid rgb(226, 232, 240);
-    padding-left: 2rem;
+.header__type {
+    border: 2px solid rgb(226, 232, 240);
+    padding: 20px 192px 20px 32px;
+    border-radius: 50px;
     font-size: 100%;
-    font-weight: 500;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    padding-right: 12rem;
-    opacity: 0.5;
+    font-weight: 600;
     transition: all 300ms ease;
 }
 
-input:hover {
+.header__type:hover {
     border-color: rgb(160 174 192);
 }
 
-.left__side--action {
-    display: flex;
-    position: relative;
-}
-
-.btn {
+.header__btn {
     margin-right: 0.5rem;
     color: #F7FAFC;
     background-color: #6415ff;
@@ -195,33 +198,37 @@ input:hover {
     right: 0;
 }
 
-.btn:hover {
-    background-color: rgb(60 13 153);
+.header__btn:hover {
+    background-color: rgb(60 13 153)
 }
 
-.left__side--input {
-    margin-top: 5rem;
+.header__wrapper {
+    margin: 80px 0 0;
+}
+
+.header__customers {
     font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: .05em;
-    color: rgb(160 174 192);
+    letter-spacing: 0.05em;
+    color: rgb(160, 174, 192);
 }
 
-.left__side--input-img {
+.header__img {
     width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin-top: 1rem;
-    opacity: 0.5;
     margin: 16px 0 0;
-    padding: 0 128px 0 0;
+    padding: 0px 128px 0 0;
+    opacity: 0.5;
 }
 
-.right__side--img {
-    max-width: 48rem;
+.header__landing-img {
+    width: 60%;
+}
+
+.landing__img {
     width: 100%;
 }
+
 
 
 
