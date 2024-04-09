@@ -8,7 +8,7 @@
   </head>
   <body>
     <main>
-      <section class="landing">
+      <section id="landing">
         <nav>
           <div class="nav__container">
             <div class="nav__row">
@@ -33,40 +33,47 @@
             </div>
           </div>
         </nav>
-
-        <div class="row">
-          <div class="two__columns--container">
-            <div class="left__side--container">
-              <h1 class="left__side--header">
-                Beautiful React Templates <span class="purple">for you</span>
-              </h1>
-              <p class="left__side--para">
-                Our templates are easy to setup, understand and customize. Fully
-                modular components with a variety of pages and components.
-              </p>
-              <div class="left__side--action">
-                <input type="text" placeholder="Your E-mail Address" />
-                <button class="btn">Get Started</button>
+        <header>
+          <div class="header__container">
+            <div class="header__row">
+              <div class="header__description">
+                <h1 class="header__title">
+                  Beautiful React Templates <span class="purple">for you.</span>
+                </h1>
+                <p class="header__para">
+                  Our templates are easy to setup, understand and customize.
+                  Fully modular components with a variety of pages and
+                  components.
+                </p>
+                <div class="header__input">
+                  <input
+                    class="header__type"
+                    type="email"
+                    placeholder="Your E-mail Address"
+                  />
+                  <button class="header__btn">Get Started</button>
+                </div>
+                <div class="header__wrapper">
+                  <p class="header__customers">Our Trusted Customers</p>
+                  <img
+                    class="header__img"
+                    src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+                    alt=""
+                  />
+                </div>
               </div>
-              <div class="left__side--input">
-                <p>Our Trusted Customers</p>
+              <div class="header__landing-img">
                 <img
-                  class="left__side--input-img"
-                  src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+                  class="landing__img"
+                  src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
                   alt=""
                 />
               </div>
             </div>
-            <div class="right__side--container">
-              <img
-                class="right__side--img"
-                src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
-                alt=""
-              />
-            </div>
           </div>
-        </div>
+        </header>
       </section>
     </main>
   </body>
 </html>
+
