@@ -1528,7 +1528,7 @@ FOOTER
     }
 
     .header__img {
-        max-width: 100%;
+        width: 100%;
     }
  
     .header__landing-img {
@@ -1566,7 +1566,7 @@ FOOTER
 
     .quality__work--right {
         width: 100%;
-        min-width: 28rem;
+        min-width: 23rem;
         margin: 0 auto;
     }
 
@@ -1577,21 +1577,29 @@ FOOTER
     .left__title {
         font-size: 30px;
         text-align: center;
+        min-width: 23rem;
     }
 
     .left__side--para {
-        min-width: 28rem;
+        min-width: 23rem;
         margin-top: 1rem;
         text-align: center;
     }
 
     .quality__work--left {
-        min-width: 28rem;
+        min-width: 23rem;
         text-align: center;
+        margin: 0 auto;
     }
 
     .quality__left--box {
-        min-width: 28rem;
+        width: 100%;
+        min-width: 23rem;
+        margin: 0 auto;
+    }
+
+    .right__img {
+        width: 100%;
     }
 
     /*
@@ -1635,6 +1643,12 @@ FOOTER
         margin-right: auto;
     }
 
+
+    .left__img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     /*
 
     VALUES
@@ -1645,7 +1659,198 @@ FOOTER
         flex-direction: column-reverse;
     }
 
+    .right__side--img {
+        width: 100%;
+        min-width: 23rem;
+        margin: 0 auto;
+    }
 
+    .right--img {
+        width: 100%;
+        max-width: 23rem;
+        margin: 0 auto;
+    }
+
+    .left__side--values {
+        width: 100%;
+        min-width: 23rem;
+        margin: 0 auto;
+    }
+
+    .values__header {
+        text-align: center;
+    }
+
+
+    .values__para {
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .two__boxes {
+        align-items: center;
+    }
+
+    .left__box {
+        margin: 0;
+    }
+
+    .left__box--header {
+        padding-left: 35px;
+        margin-top: 2rem;
+    }
+
+    .right__box--header {
+        margin-top: 2rem;
+        padding-left: 15px;
+    }
+
+    .right__box {
+        margin: 0;
+    }
+
+    .left__box--para {
+        text-align: center;
+    }
+
+    .right__box--para {
+        text-align: center;
+    }
+
+    .left__side--btn-box {
+        display: flex;
+    }
+
+    .left__side--btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*
+
+    PRICING
+
+    */
+
+    .pricing__title {
+        font-size: 36px;
+    }
+
+    /*
+
+    TESTIMONIALS
+
+    */
+
+    .testimonial__two--sections {
+        flex-direction: column;
+    }
+
+    .testimonial__img {
+        width: 100%;
+    }
+
+    .img {
+        max-width: 28rem;
+        margin: 0 auto;
+    }
+
+    .testimonial__right--side {
+        width: 100%;
+        min-width: 23rem;
+        margin-top: 4rem;
+        padding: 0;
+        text-align: center;
+    }
+
+    .user-and__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-and__name {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name-of__user--box {
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .left__right--buttons {
+        margin-top: 2rem;
+    }
+
+
+    /*  
+
+    FAQs
+
+    */
+
+    .faq__title {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    /*
+
+    CONTACT US
+
+    */
+
+    .contact-us__two--part {
+        margin: 0;
+    }
+
+    .left__text {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .right__side--buttons {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .get__started {
+        margin: 0;
+    }
+
+    .contact__us {
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    /*
+
+    FOOTER
+
+    */
+
+    .five__columns {
+        flex-wrap: wrap;
+    }
+
+    .main__column {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+    }
+
+    .copyrights {
+        margin-top: 2rem;
+    }
+
+    .footer__icons {
+        margin-top: 2rem;
+    }
 
 }
 
@@ -1826,7 +2031,7 @@ FOOTER
     .header__img {
         margin-top: 1rem;
         width: 100%;
-        max-width: 60%;
+        max-width: 28rem;
         padding: 0;
         margin-left: auto;
         margin-right: auto;
@@ -1834,7 +2039,7 @@ FOOTER
 
     .header__landing-img {
         width: 100%;
-        max-width: 60%;
+        max-width: 32rem;
         margin-top: 3rem;
     }
 
@@ -1912,7 +2117,6 @@ FOOTER
     .values__para{
         font-size: 16px;
         width: 100%;
-        text-align: left;
     }
 
     .two__boxes {
